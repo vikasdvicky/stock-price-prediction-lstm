@@ -58,6 +58,7 @@ Keras==2.2.0
 scikit-learn==0.19.1
 tensorflow==1.8.0
 
+Have made use of ANACONDA for coding purposes
 
 Note:
 The one improvement could be implementation of online learning(continously updating the dataset as well as updating the model for new entries) for better future closing price predictions
