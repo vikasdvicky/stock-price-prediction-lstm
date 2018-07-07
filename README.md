@@ -1,11 +1,17 @@
 # stock-price-prediction-lstm
+GOOG Dataset description:The data used in this project is of the Alphabet Inc3 from January 1, 2005 to June 20,
+2017 , this is a series of data points indexed in time order or a time series. My goal was to
+predict the closing price for any given date after training. For ease of reproducibility and
+reusability, all data was pulled from the Google Finance Python API
+
+
 MSFT dataset description:
 Dataset is downloaded from https://www.alphavantage.co/documentation/ site for microsoft stock prices. The dataset contains daily opening,
 closing, high and low stock prices. The dataset contains entries from 2000-01-03 to 2018-06-20.
 
 Training model on google dataset:
 1. comment line no. 10 of utils.py file and make sure line no. 9 is uncommnet.
-2. uncommnet line no. 13, 23 and 24 of model.py file 
+2. uncomment line no. 13, 23 and 24 of model.py file 
 3. run the model.py file using below command
 python model.py
 
@@ -43,14 +49,14 @@ The predictions are evaluated using rmse(root mean square error.) The ideal valu
 Notebook file:
 1. google_model.ipynb
 2. msft_model.ipynb
-3. forecast.ipynb
+3. forecast.ipynb - predicts the closing price for any given date after training
 
 These are self explanatory files.
 
 keras, sklearn & tensorflow versions:
-Keras==2.1.1
+Keras==2.2.0
 scikit-learn==0.19.1
-tensorflow==1.4.0
+tensorflow==1.8.0
 
 
 Note:
